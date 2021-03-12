@@ -98,40 +98,81 @@
             <div class="oii">
                 <div class="slide-img"> <img src="assets/img/p6.png"></div>
                 <div class="slide-konten-text">
-                    <H3>Pendaftaran</H3>
+                    <p>Pendaftaran</p>
                     <p>11-14 Mei 2021</p>
                 </div>
             </div>
             <div class="oii">
                 <div class="slide-img"> <img src="assets/img/p7.png"></div>
                 <div class="slide-konten-text">
-                    <H3>Pengumuman Hasil</H3>
+                    <p>Pengumuman Hasil</p>
                     <p>09 Juni 2021</p>
                 </div>
             </div>
             <div class="oii">
                 <div class="slide-img"> <img src="assets/img/p8.png"></div>
                 <div class="slide-konten-text">
-                    <h3>Verifikasi dan Validasi Berkas</h3>
+                    <p>Verifikasi dan Validasi Berkas</p>
                     <p>11-13 Juni 2021</p>
                 </div>
             </div>
             <div class="oii">
                 <div class="slide-img"> <img src="assets/img/p9.png"></div>
                 <div class="slide-konten-text">
-                    <h3>Tes Bakat Minat</h3>
+                    <p>Tes Bakat Minat</p>
                     <p>24 Juni 2021</p>
                 </div>
             </div>
             <div class="oii">
                 <div class="slide-img"> <img src="assets/img/p10.png"></div>
                 <div class="slide-konten-text">
-                    <h3>Pengumuman hasil Seleksi</h3>
+                    <p>Pengumuman hasil Seleksi</p>
                     <p>27 Juni 2021</p>
                 </div>
             </div>
-
         </div>
+    </div>
+
+    <!--tambahan-->
+     <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h1>Waktu Pelaksanaan</h1>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/p6.png">
+            </div>
+            <h2>Fahrul Rozi</h2>
+          </div>
+                    <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/p7.png">
+            </div>
+            <h2>Fathurrohman</h2>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/p8.png">
+            </div>
+                        <h2>Hamzah</h2>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/p9.png">
+            </div>
+            <h2>Feisal Lavi Abraham</h2>
+          </div>
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="assets/img/p10.png">
+            </div>
+            <h2>Fsari</h2>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
     </div>
 
 

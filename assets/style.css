@@ -147,6 +147,10 @@ nav ul li a:hover {
         width: 400px;
     
     }
+    .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+    }
     
 }
 
@@ -188,6 +192,9 @@ nav ul li a:hover {
     }
 }
 @media screen and (max-width: 576px) {
+     .lesson {
+    width: 100%;
+    }
     .about{
         height: 100vh;
         display: flex;
@@ -337,7 +344,7 @@ a {
 .person{
     flex: 1;
     overflow: hidden;
-    cursor: pointer;
+    /*cursor: pointer;*/
     position: relative;
     transition: .6s;
 }
@@ -388,7 +395,6 @@ a {
 
 
 /* footer */
-
 .footer {
   display: flex;
   flex-flow: row wrap;
@@ -591,23 +597,86 @@ a {
     background-repeat: no-repeat;
     background-image: cover;
 }
-/*.slide-konten-text{
+.slide-konten-text{
     box-shadow: 12px 12px 10px rgba(0,0,0,0.7);
     background-color: rgba(245, 245, 245, 0.5);
-    margin-right:50px;
-    margin-top: 20px;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-top: 50px;
     padding: 30px;
-    float: right;
-    width: 100px;
-    height: 150px;
+    float: left;
+    width: 200px;
+    height: 80px;
     border-radius: 10px;
+    
 }
 .slide-konten-text p{
     font-size: 20px;
     font-weight: bold;
     color: black;
     text-align: left;
-}*/
+}
+
+/*tambahan*/
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h1 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+  box-shadow: 12px 12px 10px rgba(0,0,0,0.7);
+  border-radius: 100%;
+  margin-left: 50px;
+  border: 5px solid whitesmoke;
+  width: 200px;
+  height:200px;
+}
+.lesson-icon img {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: cover;
+  border-radius: 50%;
+}
+.lesson h2 {
+  position: relative;
+  margin-left: 50px;
+  top: 50%;
+  width: 100%;
+  color: black;
+  padding-top: 10px;
+}
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
 
 
 @keyframes slider {     
